@@ -31,6 +31,7 @@ public class Balok extends PersegiPanjang implements MenghitungRuang {
 
 
     public void outputData() {
+        //supaya overload terpakai
         System.out.println("LUAS Persegi : " + super.calculateLuas());
         System.out.println("KELILING PERSEGI : " + super.calculateKeliling());
         outputData(0);
